@@ -5,16 +5,11 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['plugin:react/recommended', 'xo'],
-  overrides: [
-    {
-      extends: ['xo-typescript', 'prettier'],
-      files: ['*.ts', '*.tsx'],
-    },
-  ],
+  extends: ['xo', 'prettier'],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  plugins: ['react'],
+  plugins: [],
   rules: {},
 };
