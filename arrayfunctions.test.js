@@ -39,12 +39,12 @@ describe('Testing of function arrayLength with a table of test cases', () => {
 });
 
 //TESTS DE arrayPush
-// describe('Testing de la función arrayPush', () => {
-//   test('When you apply function arrayPush to array [0,0] and element 21, the new length is 3', () => {
-//     const arraytest = [0, 0];
-//     const elementToPush = 21;
-//     arrayPush(arraytest, elementToPush);
-//     const r = arrayLength(arraytest);
-//     expect(r).toBe(3);
-//   });
-// });
+describe('Testing de la función arrayPush', () => {
+  test('When you apply function arrayPush to array [0,0] and element 21, the new length is 3', () => {
+    const arraytest = [0, 0];
+    const elementToPush = 21;
+    arrayPush(arraytest, elementToPush);
+    const r = arrayLength(arraytest);
+    expect(r).toBe(3);
+  });
+});
