@@ -5,7 +5,7 @@
   "main": "arrayfunctions.js",
   "type": "module",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --watchAll --coverage",
     "test:prod": "jest --coverage",
     "prepare": "husky install",
     "sass": "sass sass:css --watch"
