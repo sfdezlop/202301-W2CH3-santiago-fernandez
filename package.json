@@ -1,0 +1,11 @@
+{
+  "name": "w02ch03 Array Functions",
+  "version": "1.0.0",
+  "description": "Week 2 Challenge 3",
+  "main": "arrayfunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Santiago",
+  "license": "ISC"
+}
