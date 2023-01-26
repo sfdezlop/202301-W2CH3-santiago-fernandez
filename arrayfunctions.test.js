@@ -11,12 +11,12 @@ describe('Testing of function arrayLength', () => {
   });
 });
 
-// describe('Testing of function arrayLength', () => {
-//   test('[0,0,{}] It should be 3', () => {
-//     const r = arrayLength([0, 0, {}]);
-//     expect(r).toBe(3);
-//   });
-// });
+describe('Testing of function arrayLength', () => {
+  test('[0,0,{}] It should be 3', () => {
+    const r = arrayLength([0, 0, {}]);
+    expect(r).toBe(3);
+  });
+});
 
 //Test basados en array de casos con Metodología Gerkin o GwT  (given when then)
 // describe('Testing of function arrayLength with a table of test cases', () => {
