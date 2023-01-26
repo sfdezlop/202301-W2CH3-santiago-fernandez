@@ -4,10 +4,15 @@ Challenge en parejas.
 ​
 Crea un modulo con funciones que repliquen, sin utilizar ninguno de los métodos ya existentes en el prototipo, los siguientes métodos de array:
 
+DONE AND TESTED
+
 - length,
 - push,
 - pop,
 - unshift,
+
+UNDONE
+
 - shift,
 - some,
 - every,
