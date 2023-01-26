@@ -37,8 +37,7 @@ describe('Testing of function arrayPush with a table of test cases', () => {
             element.result,
           () => {
             arrayPush(element.arrayInput, element.secondParameter);
-            const r =
-              element.arrayInput[arrayLength(element.arrayInput) - 1];
+            const r = element.arrayInput[arrayLength(element.arrayInput) - 1];
             expect(r).toBe(element.result);
           }
         );
@@ -78,7 +77,10 @@ describe('Testing of function arrayUnshift with a table of test cases', () => {
             element.labelResult +
             element.result,
           () => {
-            const r = arrayUnshift(element.arrayInput, element.secondParameter)[0];
+            const r = arrayUnshift(
+              element.arrayInput,
+              element.secondParameter
+            )[0];
             expect(r).toBe(element.result);
           }
         );
@@ -100,4 +102,3 @@ describe('Testing of function arrayUnshift with a table of test cases', () => {
 //     expect(r).toBe(3);
 //   });
 // });
-

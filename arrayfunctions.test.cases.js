@@ -38,8 +38,7 @@ export const testCases = [
     arrayInput: [1, 2, 3],
     secondParameter: null,
     labelWhen: ' Where the number of elements are ',
-    labelResult:
-      ' Then has a new length, when is popped, of ',
+    labelResult: ' Then has a new length, when is popped, of ',
     result: 2,
   },
 
@@ -48,8 +47,7 @@ export const testCases = [
     arrayInput: ['a', 'b'],
     secondParameter: null,
     labelWhen: ' Where the number of elements are ',
-    labelResult:
-      ' Then has a new length, when is popped, of ',
+    labelResult: ' Then has a new length, when is popped, of ',
     result: 1,
   },
   {
@@ -61,7 +59,7 @@ export const testCases = [
       ' Then has a new element at index 0 with a value of 1 when is unshifted a value of ',
     result: 1,
   },
-  
+
   {
     functionName: 'arrayUnshift',
     arrayInput: ['b', 'c', 'd'],
