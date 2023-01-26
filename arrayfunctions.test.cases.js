@@ -42,7 +42,7 @@ export const testCases = [
       ' Then has a new length, when is popped, of ',
     result: 2,
   },
-  ,
+
   {
     functionName: 'arrayPop',
     arrayInput: ['a', 'b'],
@@ -61,7 +61,7 @@ export const testCases = [
       ' Then has a new element at index 0 with a value of 1 when is unshifted a value of ',
     result: 1,
   },
-  ,
+  
   {
     functionName: 'arrayUnshift',
     arrayInput: ['b', 'c', 'd'],
