@@ -19,24 +19,24 @@ describe('Testing of function arrayLength', () => {
 });
 
 //Test basados en array de casos con Metodología Gerkin o GwT  (given when then)
-describe('Testing of function arrayLength with a table of test cases', () => {
-  describe('Given an array', () => {
-    testCases
-      .filter((item) => item.functionName === 'arrayLength')
-      .forEach((element) => {
-        test(
-          'With a number of items of ' +
-            element.label +
-            ' then result should be ' +
-            element.result,
-          () => {
-            const r = arrayLength(element.array);
-            expect(r).toBe(element.result);
-          }
-        );
-      });
-  });
-});
+// describe('Testing of function arrayLength with a table of test cases', () => {
+//   describe('Given an array', () => {
+//     testCases
+//       .filter((item) => item.functionName === 'arrayLength')
+//       .forEach((element) => {
+//         test(
+//           'With a number of items of ' +
+//             element.label +
+//             ' then result should be ' +
+//             element.result,
+//           () => {
+//             const r = arrayLength(element.array);
+//             expect(r).toBe(element.result);
+//           }
+//         );
+//       });
+//   });
+// });
 
 //TESTS DE arrayPush
 describe('Testing de la función arrayPush', () => {
