@@ -23,7 +23,7 @@ export const testCases = [
   {
     functionName: 'arrayPush',
     array: [0, 0, 0],
-    secondParameter: 5,
+    secondParameter: 30,
     label: '[0,0,0]',
     result: 4,
   },
