@@ -6,3 +6,9 @@ export function arrayLength(a) {
 
   return length;
 }
+
+export function arrayPush(a, b) {
+  let indexForB = arrayLength(a);
+  a[indexForB] = b;
+  return a;
+}
